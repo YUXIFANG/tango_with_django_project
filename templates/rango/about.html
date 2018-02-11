@@ -1,0 +1,13 @@
+{% extends 'rango/base.html' %}
+{% load staticfiles %}
+{% block title_block %}
+    About{% endblock %}
+
+{% block body_block %}
+    <h1>THE PAGE MADE BY YUXI FANG :D</h1>
+    <p>visits: {{ visits }}</p>
+    <div>
+        <img src="/static/images/rango.jpg" alt="Picture of people"/>
+        <img/><img src="{{ MEDIA_URL }}cat.jpg">
+    </div>
+{% endblock %}
